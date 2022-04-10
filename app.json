@@ -46,6 +46,26 @@
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
             "required": true
         },
+        "IMDB": {
+            "description": "Imdb, the view of information when making True/False ",
+            "required": false
+        },
+        "IMDB_TEMPLATE": {
+            "description": "Imdb, template ",
+            "required": false            
+        },
+        "SINGLE_BUTTON": {
+            "description": "choose b/w single or double buttons https://github.com/EvamariaTG/EvaMaria/issues/22",
+            "required": false
+        },
+        "CUSTOM_FILE_CAPTION": {
+            "description": "A custom file caption for your files. formatable with , file_name, file_caption, file_size, Read Readme.md for better understanding.",
+            "required": false
+        },
+        "UPSTREAM_REPO": {
+            "description": " Your repo",
+            "required": false             
+        },
         "AUTH_USERS": {
             "description": "Username or ID of users to give access of inline search. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage.",
             "required": false
@@ -61,6 +81,10 @@
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/nj-lJfkgb6w",
             "required": false
+        },
+        "MAX_LIST_ELM": {
+            "description": " the view of elements ",
+            "required": false             
         },
         "COLLECTION_NAME": {
             "description": "Name of the collections. Defaults to Telegram_files. If you are using the same database, then use different collection name for each bot",
