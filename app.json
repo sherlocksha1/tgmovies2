@@ -42,9 +42,14 @@
             "description": "Add some telegraph link of pictures .",
             "required": false
         },
+        "CACHE_TIME": {
+            "description": "The maximum amount of time in seconds that the result of the inline query may be cached on the server",
+            "value": "300",
+            "required": false            
+        },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
-            "required": true
+            "required": true            
         },
         "IMDB": {
             "description": "Imdb, the view of information when making True/False ",
@@ -52,7 +57,7 @@
         },
         "IMDB_TEMPLATE": {
             "description": "Imdb, template ",
-            "required": false            
+            "required": false        
         },
         "SINGLE_BUTTON": {
             "description": "choose b/w single or double buttons https://github.com/EvamariaTG/EvaMaria/issues/22",
@@ -69,6 +74,10 @@
         "AUTH_USERS": {
             "description": "Username or ID of users to give access of inline search. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage.",
             "required": false
+        },
+        "P_TTI_SHOW_OFF": {
+            "description": "Customize Result Buttons to Callback or Url by (True = url / False = callback)",
+            "required": false            
         },
         "AUTH_CHANNEL": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
